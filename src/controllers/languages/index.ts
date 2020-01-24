@@ -90,6 +90,10 @@ router.route('').post(language.postLanguage);
  *          produces:
  *              - application/json
  *          parameters:
+ *              - name: id
+ *                in: path
+ *                required: true
+ *                type: integer
  *              - name: body
  *                in: body
  *                description: Insert a new language
@@ -106,23 +110,21 @@ router.route('/update/:id').put(language.updateLanguage);
 
 /**
  * @swagger
- * /languages/delete/{id}:
+ /languages/delete/{id}:
  *      delete:
  *          tags:
  *              - Languages
- *          summary: Delete a language
- *          produces:
- *              - application/json
+ *          summary: Delete language by id
  *          parameters:
- *              - name: body
- *                in: body
- *                description: Insert a new language
+ *              - in: path
+ *                name: id
+ *                schema: 
+ *                  type: integer
  *                required: true
- *                type: string
- *                schema:
- *                  $ref: '#/definitions/Language'
+ *          consumes:
+ *              - application/json
  *          responses:
- *             201:
+ *              200:
  *                  description: Deleted
  */
 router.route('/delete/:id').delete(language.deleteLanguage);

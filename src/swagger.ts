@@ -7,7 +7,7 @@ const options = {
         info: {
             description: 'UNDI UNDI API',
             swagger: '2.0',
-            title: 'Documentation API',
+            title: 'Documentation API RedBox',
             version: '1.0.0'
         }
     }
