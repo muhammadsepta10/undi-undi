@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //create connection to mysql
 const mysql = require('mysql');
 const connection = mysql.createConnection({
@@ -8,7 +10,6 @@ const connection = mysql.createConnection({
     user: 'rizki',
     password: 'R1zk!',
     database: 'undiundi'
-})
-
-connection.connect()
-export default connection
+});
+connection.connect();
+exports.default = connection;
