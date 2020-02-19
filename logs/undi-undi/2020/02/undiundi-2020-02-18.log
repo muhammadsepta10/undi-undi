@@ -1,0 +1,81 @@
+{
+  message: ' you have taken this survey try another time',
+  API: 'GET-https://beta-api.undiundi/survey/questions',
+  query: "SELECT survey_entries.id, survey_entries.profile_id,survey_entries.periode,periode.id as periode,periode.start_date,periode.end_date FROM survey_entries LEFT JOIN periode ON survey_entries.periode = periode.id WHERE survey_entries.profile_id = 162 AND start_date<='2020-02-18' AND periode.end_date>'2020-02-18'",
+  level: 'warn'
+}
+{
+  message: 'success get data',
+  API: 'GET-https://beta-api.undiundi/survey/answer/1',
+  query: 'SELECT id,code,answer FROM survey_answers WHERE survey_question_id=1',
+  level: 'info'
+}
+{
+  message: 'you are the 2 participant for that opportunity to get a  MOBIL BMW, TRAVEL TO HONGKONG, LOGAM EMAS',
+  API: 'GET-https://beta-api.undiundi/survey/userOrder',
+  query: 'SELECT prize FROM prizes WHERE periode_id = 13',
+  level: 'info'
+}
+{
+  timeStamp: '2020-02-18 10:45:51',
+  message: {
+    message: 'Login Success',
+    API: 'POST -  https://beta-api.undiundi.id/login',
+    query: "SELECT id, email, password FROM profiles where email='varchar'"
+  },
+  level: 'info'
+}
+{
+  message: ' you have taken this survey try another time',
+  API: 'GET-https://beta-api.undiundi/survey/questions',
+  query: "SELECT survey_entries.id, survey_entries.profile_id,survey_entries.periode,periode.id as periode,periode.start_date,periode.end_date FROM survey_entries LEFT JOIN periode ON survey_entries.periode = periode.id WHERE survey_entries.profile_id = 162 AND start_date<='2020-02-18' AND periode.end_date>'2020-02-18'",
+  level: 'warn'
+}
+{
+  timeStamp: '2020-02-18 15:13:25',
+  message: {
+    message: 'Login Success',
+    API: 'POST -  https://beta-api.undiundi.id/login',
+    query: "SELECT id, email, password FROM profiles where email='varchar'"
+  },
+  level: 'info'
+}
+{
+  message: 'Username or Password Incorrect',
+  API: 'POST -  https://beta-api.undiundi.id/login',
+  query: "SELECT id, email, password FROM profiles where email='undefined'",
+  level: 'warn'
+}
+{
+  message: 'Username or Password Incorrect',
+  API: 'POST -  https://beta-api.undiundi.id/login',
+  query: "SELECT id, email, password FROM profiles where email='undefined'",
+  level: 'warn'
+}
+{
+  timeStamp: '2020-02-18 16:02:12',
+  message: {
+    message: 'Login Success',
+    API: 'POST -  https://beta-api.undiundi.id/login',
+    query: "SELECT id, email, password FROM profiles where email='varchar'"
+  },
+  level: 'info'
+}
+{
+  timeStamp: '2020-02-18 17:12:43',
+  message: {
+    message: 'Login Success',
+    API: 'POST -  https://beta-api.undiundi.id/login',
+    query: "SELECT id, email, password FROM profiles where email='varchar'"
+  },
+  level: 'info'
+}
+{
+  timeStamp: '2020-02-18 18:51:03',
+  message: {
+    message: 'Login Success',
+    API: 'POST -  https://beta-api.undiundi.id/login',
+    query: "SELECT id, email, password FROM profiles where email='varchar'"
+  },
+  level: 'info'
+}

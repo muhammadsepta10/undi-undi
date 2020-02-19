@@ -1,3 +1,4 @@
 "use strict";
-const jwt = require('express-jwt');
-exports.authenticated = jwt({ secret: 'my-secret-key' });
+Object.defineProperty(exports, "__esModule", { value: true });
+const secret_token = 'dwahdjasnjkdhwajdknadwha';
+exports.default = secret_token;

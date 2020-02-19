@@ -1,50 +1,34 @@
-const appRoot = require('app-root-path')
-const winston = require('winston')
+const appRoot = require("app-root-path");
+import * as logPath from "./config/logPath";
+const winston = require('winston');
 
-const date = new Date();
-
-//winston configuration
-const options = {
-    file: {
-        level: 'info',
-        filename: `${appRoot}/logs/app.log`,
-        handleExceptions: true,
-        json: true,
-        maxsize: 5242880, // max file size 5mb
-        colorize: false,
-        timestamp: date.getTime
-    },
-    console: {
-        level: 'debug',
-        handleExceptions: true,
-        json: 'false',
-        colorize: 'true',
-    },
+const config = {
+  levels: {
+    error: 0,
+    debug: 1,
+    warn: 2,
+    data: 3,
+    info: 4,
+    verbose: 5,
+    silly: 6,
+    custom: 7
+  },
+  colors: {
+    error: 'red',
+    debug: 'blue',
+    warn: 'yellow',
+    data: 'grey',
+    info: 'green',
+    verbose: 'cyan',
+    silly: 'magenta',
+    custom: 'yellow'
+  }
 };
 
-// call winston class 
-const logger = winston.createLogger({
-    format: winston.format.combine(
-        winston.format.timestamp(+new Date()),
-        winston.format.json()
-    ),
-    transports: [
-        new winston.transports.File(options.file),
-        new winston.transports.Console()
-    ],
-    exitOnError: false, // make apps not stop if any exception
-})
-
-logger.stream = {
-    write: function(message: any, encoding: any) {
-        logger.info(message)
-    },
-};
-
-// export const stream = {
-//     write: logger.info
-// };
-
-// export default logger
-
-module.exports = logger;
+export const logger = winston.createLogger({
+  format: winston.format.combine(
+      winston.format.json(),
+      winston.format.prettyPrint()
+  ),
+  transports: [new winston.transports.File({ filename: logPath.logPath(`${appRoot}/logs/undi-undi`)})]
+});

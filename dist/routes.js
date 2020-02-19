@@ -1,13 +1,55 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const express = require("express");
-const swaggerUi = require('swagger-ui-express');
+const appRoot = require("app-root-path");
+const swaggerUi = require("swagger-ui-express");
 const specs = require("./swagger");
+const verifyToken_1 = require("./verifyToken");
 //import sub-routers
 const registerRouter = require("./controllers/Register");
+const loginRouter = require("./controllers/Login");
+const entries = require("./controllers/entries");
+const languages = require("./controllers/languages");
+const versions = require("./controllers/versions");
+const resetPasswordRouter = require("./controllers/ResetPassword");
+const profilesRouter = require("./controllers/Profiles");
+const leaderboardRouter = require("./controllers/Leaderboard");
+const prizeRouter = require("./controllers/prizes");
+const winnerRouter = require("./controllers/winner");
+const historyRouter = require("./controllers/History");
+const prize_claim = require("./controllers/Tukarpoint");
+const masterRouter = require("./controllers/Master");
+const newsRouter = require("./controllers/News");
+const videosRouter = require("./controllers/Video");
+const quizRouter = require("./controllers/quiz");
+const surveyRouter = require("./controllers/survey");
+const bannerRouter = require("./controllers/Banner");
 let router = express.Router();
-router.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs.default));
-router.get('/', (req, res) => res.send('Welcome to API UNDI-UNDI'));
-//Router Language
-router.use('/registration', registerRouter);
+router.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs.default, { explorer: true }));
+router.get("/", (req, res) => res.send("Welcome to API UNDI-UNDI"));
+//Router
+router.use("/registration", registerRouter);
+router.use("/login", loginRouter);
+router.use("/entries", verifyToken_1.auth, entries);
+router.use("/languages", languages);
+router.use("/versions", versions);
+router.use("/reset", resetPasswordRouter);
+router.use("/profiles", verifyToken_1.auth, profilesRouter);
+router.use("/leaderboard", verifyToken_1.auth, leaderboardRouter);
+router.use("/prize", verifyToken_1.auth, prizeRouter);
+router.use("/winner", winnerRouter);
+router.use("/history", verifyToken_1.auth, historyRouter);
+router.use("/prize_claim", prize_claim);
+router.use("/master", masterRouter);
+router.use("/news", verifyToken_1.auth, newsRouter);
+router.use("/videos", verifyToken_1.auth, videosRouter);
+router.use("/quiz", verifyToken_1.auth, quizRouter);
+router.use("/survey", verifyToken_1.auth, surveyRouter);
+router.use("/banner", verifyToken_1.auth, bannerRouter);
+router.use("/faq", (req, res) => {
+    res.sendFile(`${appRoot}/public/tnc/faq.html`);
+});
+router.use("/tnc", (req, res) => {
+    res.sendFile(`${appRoot}/public/tnc/tnc.html`);
+});
 module.exports = router;

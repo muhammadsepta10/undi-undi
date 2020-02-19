@@ -1,0 +1,787 @@
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 08:52:35'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 08:53:23'
+}
+{
+  message: 'ECONNREFUSED',
+  level: 'error',
+  timestamp: '2020-02-17 08:54:10'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 08:54:35'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:03:18'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:03:26'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:03:36'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:03:50'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:04:08'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:10:26'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:11:01'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:11:22'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:11:53'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:12:43'
+}
+{
+  message: 'Username or Password Incorrect',
+  error: Error: connect ECONNREFUSED 127.0.0.1:3306
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+      --------------------
+      at Protocol._enqueue (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+      at Protocol.handshake (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+      at PoolConnection.connect (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\mysql\lib\Connection.js:119:18)
+      at Pool.getConnection (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\mysql\lib\Pool.js:48:16)
+      at Pool.query (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\mysql\lib\Pool.js:202:8)
+      at exports.postLogin (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\src\controllers\Login\login.ts:11:16)
+      at Layer.handle [as handle_request] (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\express\lib\router\layer.js:95:5) {
+    errno: 'ECONNREFUSED',
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 3306,
+    fatal: true
+  },
+  level: 'error',
+  timestamp: '2020-02-17 09:12:46'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:14:12'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:15:41'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:16:07'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:21:17'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:29:03'
+}
+{
+  message: 'failed to get data banner',
+  API: 'GET-https://beta-api.undiundi/Banner',
+  err: Error: ER_NO_SUCH_TABLE: Table 'undiundi.Banner' doesn't exist
+      at Query.Sequence._packetToError (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+      at Query.ErrorPacket (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+      at Protocol._parsePacket (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+      at Parser._parsePacket (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\Parser.js:433:10)
+      at Parser.write (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\Parser.js:43:10)
+      at Protocol.write (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+      at Socket.<anonymous> (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\Connection.js:91:28)
+      at Socket.<anonymous> (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\Connection.js:525:10)
+      at Socket.emit (events.js:223:5)
+      at Socket.EventEmitter.emit (domain.js:475:20)
+      --------------------
+      at Pool.query (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\Pool.js:199:23)
+      at Query.<anonymous> (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\src\controllers\Banner\Banner.ts:17:18)
+      at Query.<anonymous> (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\Connection.js:525:10)
+      at Query._callback (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\Connection.js:491:16)
+      at Query.Sequence.end (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+      at Query._handleFinalResultPacket (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+      at Query.EofPacket (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\sequences\Query.js:123:8)
+      at Protocol._parsePacket (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+      at Parser._parsePacket (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\Parser.js:433:10)
+      at Parser.write (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\Parser.js:43:10) {
+    code: 'ER_NO_SUCH_TABLE',
+    errno: 1146,
+    sqlMessage: "Table 'undiundi.Banner' doesn't exist",
+    sqlState: '42S02',
+    index: 0,
+    sql: 'SELECT image_url,link_url,link_url FROM Banner'
+  },
+  level: 'error',
+  timestamp: '2020-02-17 10:56:48'
+}
+{
+  message: 'failed to get data banner',
+  API: 'GET-https://beta-api.undiundi/Banner',
+  err: Error: ER_NO_SUCH_TABLE: Table 'undiundi.Banner' doesn't exist
+      at Query.Sequence._packetToError (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+      at Query.ErrorPacket (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+      at Protocol._parsePacket (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+      at Parser._parsePacket (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\Parser.js:433:10)
+      at Parser.write (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\Parser.js:43:10)
+      at Protocol.write (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+      at Socket.<anonymous> (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\Connection.js:91:28)
+      at Socket.<anonymous> (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\Connection.js:525:10)
+      at Socket.emit (events.js:223:5)
+      at Socket.EventEmitter.emit (domain.js:475:20)
+      --------------------
+      at Pool.query (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\Pool.js:199:23)
+      at Query.<anonymous> (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\src\controllers\Banner\Banner.ts:16:18)
+      at Query.<anonymous> (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\Connection.js:525:10)
+      at Query._callback (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\Connection.js:491:16)
+      at Query.Sequence.end (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+      at Query._handleFinalResultPacket (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+      at Query.EofPacket (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\sequences\Query.js:123:8)
+      at Protocol._parsePacket (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+      at Parser._parsePacket (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\Parser.js:433:10)
+      at Parser.write (C:\Users\RedBox167\Documents\projects\undiundibck\Document\undi-undi\node_modules\mysql\lib\protocol\Parser.js:43:10) {
+    code: 'ER_NO_SUCH_TABLE',
+    errno: 1146,
+    sqlMessage: "Table 'undiundi.Banner' doesn't exist",
+    sqlState: '42S02',
+    index: 0,
+    sql: 'SELECT image_url,link_url,link_url FROM Banner'
+  },
+  level: 'error',
+  timestamp: '2020-02-17 10:58:24'
+}
+{
+  message: 'success to get data',
+  API: 'GET-https://beta-api.undiundi/Banner',
+  level: 'info',
+  timestamp: '2020-02-17 11:08:16'
+}
+{
+  message: 'success to get data',
+  API: 'GET-https://beta-api.undiundi/Banner',
+  level: 'info',
+  timestamp: '2020-02-17 11:08:37'
+}
+{
+  message: 'success to get data',
+  API: 'GET-https://beta-api.undiundi/Banner',
+  level: 'info',
+  timestamp: '2020-02-17 11:08:59'
+}
+{
+  message: 'success to get data',
+  API: 'GET-https://beta-api.undiundi/Banner',
+  level: 'info',
+  timestamp: '2020-02-17 11:12:36'
+}
+{
+  message: 'success to get data',
+  API: 'GET-https://beta-api.undiundi/Banner',
+  level: 'info',
+  timestamp: '2020-02-17 11:14:13'
+}
+{
+  message: 'success to get data',
+  API: 'GET-https://beta-api.undiundi/Banner',
+  level: 'info',
+  timestamp: '2020-02-17 11:14:25'
+}
+{
+  message: 'success get data',
+  API: 'GET-https://beta-api.undiundi/prize/categories',
+  level: 'info',
+  timestamp: '2020-02-17 12:49:11'
+}
+{
+  message: 'success get data',
+  API: 'GET-https://beta-api.undiundi/prize/categories',
+  level: 'info',
+  timestamp: '2020-02-17 12:49:22'
+}
+{
+  message: 'success get data',
+  API: 'GET-https://beta-api.undiundi/prize/categories',
+  level: 'info',
+  timestamp: '2020-02-17 12:49:31'
+}
+{
+  message: 'success get data',
+  API: 'GET-https://beta-api.undiundi/prize/periodes/2',
+  level: 'info',
+  timestamp: '2020-02-17 12:49:38'
+}
+{
+  message: 'berhasil mendapatkan data',
+  API: 'GET-https://beta-api.undiundi/prize/periodes/2',
+  level: 'info',
+  timestamp: '2020-02-17 12:49:49'
+}
+{
+  message: 'berhasil mendapatkan data',
+  API: 'GET-https://beta-api.undiundi/prize/periodes/2',
+  level: 'info',
+  timestamp: '2020-02-17 12:49:54'
+}
+{
+  message: 'berhasil mendapatkan data',
+  API: 'GET-https://beta-api.undiundi/prize/periodes/2',
+  level: 'info',
+  timestamp: '2020-02-17 12:51:19'
+}
+{
+  message: 'berhasil mendapatkan data',
+  API: 'GET-https://beta-api.undiundi/prize/periode/active/2',
+  level: 'info',
+  timestamp: '2020-02-17 12:52:12'
+}
+{
+  message: 'berhasil mendapatkan data',
+  API: 'GET-https://beta-api.undiundi/prize/periode/active/2',
+  level: 'info',
+  timestamp: '2020-02-17 12:53:56'
+}
+{
+  message: 'sorry you have taken this quiz try another time',
+  API: "SELECT quiz_entries.id quiz_entries_id,quiz_entries.profile_id,quiz_entries.periode,periode.id,periode.start_date,periode.end_date FROM quiz_entries LEFT JOIN periode ON quiz_entries.periode = periode.id WHERE quiz_entries.profile_id = 162 AND start_date<='2020-02-17' AND periode.end_date>'2020-02-17' AND periode.category=4",
+  level: 'warn',
+  timestamp: '2020-02-17 04:44:32'
+}
+{
+  message: 'success get data',
+  API: 'GET-https://beta-api.undiundi/survey/answer/1',
+  query: 'SELECT id,code,answer FROM survey_answers WHERE survey_question_id=1',
+  level: 'info',
+  timestamp: '2020-02-17 04:45:16'
+}
+{
+  message: 'you are the 2 participant for that opportunity to get a  MOBIL BMW, TRAVEL TO HONGKONG, LOGAM EMAS',
+  API: 'GET-https://beta-api.undiundi/survey/userOrder',
+  query: 'SELECT prize FROM prizes WHERE periode_id = 13',
+  level: 'info',
+  timestamp: '2020-02-17 04:45:23'
+}
+{
+  message: ' you have taken this survey try another time',
+  API: 'GET-https://beta-api.undiundi/survey/questions',
+  query: "SELECT survey_entries.id, survey_entries.profile_id,survey_entries.periode,periode.id as periode,periode.start_date,periode.end_date FROM survey_entries LEFT JOIN periode ON survey_entries.periode = periode.id WHERE survey_entries.profile_id = 162 AND start_date<='2020-02-17' AND periode.end_date>'2020-02-17'",
+  level: 'warn',
+  timestamp: '2020-02-17 04:56:52'
+}
+{
+  message: ' you have taken this survey try another time',
+  API: 'GET-https://beta-api.undiundi/survey/questions',
+  query: "SELECT survey_entries.id, survey_entries.profile_id,survey_entries.periode,periode.id as periode,periode.start_date,periode.end_date FROM survey_entries LEFT JOIN periode ON survey_entries.periode = periode.id WHERE survey_entries.profile_id = 162 AND start_date<='2020-02-17' AND periode.end_date>'2020-02-17'",
+  level: 'warn',
+  timestamp: '2020-02-17 04:58:04'
+}
+{
+  message: ' you have taken this survey try another time',
+  API: 'GET-https://beta-api.undiundi/survey/questions',
+  query: "SELECT survey_entries.id, survey_entries.profile_id,survey_entries.periode,periode.id as periode,periode.start_date,periode.end_date FROM survey_entries LEFT JOIN periode ON survey_entries.periode = periode.id WHERE survey_entries.profile_id = 162 AND start_date<='2020-02-17' AND periode.end_date>'2020-02-17'",
+  level: 'warn',
+  timestamp: '2020-02-17 04:58:36'
+}
+{
+  message: 'sorry you have taken this quiz try another time',
+  API: "SELECT quiz_entries.id quiz_entries_id,quiz_entries.profile_id,quiz_entries.periode,periode.id,periode.start_date,periode.end_date FROM quiz_entries LEFT JOIN periode ON quiz_entries.periode = periode.id WHERE quiz_entries.profile_id = 162 AND start_date<='2020-02-17' AND periode.end_date>'2020-02-17' AND periode.category=4",
+  level: 'warn',
+  timestamp: '2020-02-17 05:38:01'
+}
+{
+  message: {
+    mesage: 'You have successfully answered 2 questions correctly',
+    API: 'GET-https://beta-api.undiundi/survey/surveyAvailable',
+    query: 'SELECT profile_id,periode FROM quiz_leaderboard WHERE profile_id=162 AND periode=12'
+  },
+  level: 'info',
+  timestamp: '2020-02-17 05:38:15'
+}
+{
+  message: {
+    mesage: 'You have successfully answered 2 questions correctly',
+    API: 'GET-https://beta-api.undiundi/survey/surveyAvailable',
+    query: 'SELECT profile_id,periode FROM quiz_leaderboard WHERE profile_id=162 AND periode=12'
+  },
+  level: 'info',
+  timestamp: '2020-02-17 05:38:19'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:35:58'
+}
+{
+  message: 'Database engine connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:36:37'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:36:37'
+}
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:36:50'
+}
+{
+  message: 'Database engine connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:36:50'
+}
+{
+  message: 'Database undiundi connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:37:27'
+}
+{
+  message: 'Database engine connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:37:27'
+}
+{
+  message: 'Database undiundi connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:37:46'
+}
+{
+  message: 'Database undiundi connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 09:38:01'
+}
+{
+  message: 'Access Denied (Unauthorized)',
+  status: '401',
+  level: 'warn',
+  timestamp: '2020-02-17 10:07:59'
+}
+{
+  message: 'Access Denied (Unauthorized)',
+  level: 'warn',
+  timestamp: '2020-02-17 10:20:44'
+}
+{
+  message: 'Login Success',
+  API: 'POST -  https://beta-api.undiundi.id/login',
+  level: 'info',
+  timestamp: '2020-02-17 10:23:28'
+}
+{
+  message: 'Username or Password Incorrect',
+  API: 'POST -  https://beta-api.undiundi.id/login',
+  level: 'warn',
+  timestamp: '2020-02-17 10:23:51'
+}
+{
+  message: 'Username or Password Incorrect',
+  API: 'POST -  https://beta-api.undiundi.id/login',
+  level: 'warn',
+  timestamp: '2020-02-17 10:27:49'
+}
+{
+  time: 2020-02-17T03:29:19.607Z,
+  message: 'Login Success',
+  API: 'POST -  https://beta-api.undiundi.id/login',
+  level: 'info',
+  timestamp: '2020-02-17 10:29:19'
+}
+{
+  message: 'Access Denied (Unauthorized)',
+  level: '\u001b[33mwarn\u001b[39m',
+  timestamp: '2020-02-17 11:13:20'
+}
+{
+  message: 'Access Denied (Unauthorized)',
+  level: 'warn',
+  timestamp: '2020-02-17 11:14:13'
+}
+{
+  message: 'Login Success',
+  API: 'POST -  https://beta-api.undiundi.id/login',
+  level: 'info',
+  timestamp: '2020-02-17 11:16:42'
+}
+{
+  message: 'Get Data Success',
+  API: 'GET - https://beta-api.undiundi.id/leaderboard/1',
+  level: 'info',
+  timestamp: '2020-02-17 11:17:15'
+}
+{
+  message: 'Get Data Success',
+  API: 'GET - https://beta-api.undiundi.id/leaderboard/search/1/kaharudin',
+  level: 'info',
+  timestamp: '2020-02-17 11:21:21'
+}
+{
+  message: 'Data Not Found',
+  API: 'GET - https://beta-api.undiundi.id/leaderboard/search/2/kaharudin',
+  level: 'error',
+  timestamp: '2020-02-17 11:21:35'
+}
+{
+  message: 'Get Data Success',
+  API: 'GET - https://beta-api.undiundi.id/leaderboard/period/all',
+  level: 'error',
+  timestamp: '2020-02-17 11:27:32'
+}
+{
+  message: 'Get Data Success',
+  API: 'GET - https://beta-api.undiundi.id/leaderboard/period/active',
+  level: 'info',
+  timestamp: '2020-02-17 11:28:10'
+}
+{
+  message: 'Get Data Success',
+  API: 'GET - https://beta-api.undiundi.id/leaderboard/user/1',
+  level: 'warn',
+  timestamp: '2020-02-17 11:28:27'
+}
+{
+  message: 'Access Denied (Unauthorized)',
+  level: 'warn',
+  timestamp: '2020-02-17 11:39:02'
+}
+{
+  message: 'Login Success',
+  API: 'POST -  https://beta-api.undiundi.id/login',
+  level: 'info',
+  timestamp: '2020-02-17 11:39:53'
+}
+{
+  message: 'Get Data Failed',
+  API: 'GET -  https://beta-api.undiundi.id/news',
+  err: null,
+  level: 'error',
+  timestamp: '2020-02-17 11:40:10'
+}
+{
+  message: 'Get Data Success',
+  API: 'GET -  https://beta-api.undiundi.id/news',
+  level: 'info',
+  timestamp: '2020-02-17 11:40:10'
+}
+{
+  message: 'Get Data Failed',
+  API: 'GET -  https://beta-api.undiundi.id/news/1',
+  level: 'info',
+  timestamp: '2020-02-17 11:40:18'
+}
+{
+  message: 'Data Not Found',
+  API: 'GET -  https://beta-api.undiundi.id/news/9',
+  level: 'warn',
+  timestamp: '2020-02-17 11:40:23'
+}
+{
+  message: 'Get Data Success',
+  API: 'GET -  https://beta-api.undiundi.id/master/city/all',
+  level: 'info',
+  timestamp: '2020-02-17 11:44:46'
+}
+{
+  message: 'Get Data Success',
+  API: 'GET -  https://beta-api.undiundi.id/profiles/id',
+  level: 'error',
+  timestamp: '2020-02-17 11:57:02'
+}
+{
+  message: 'Update Data Success',
+  API: 'PUT -  https://beta-api.undiundi.id/profiles/update/email',
+  level: 'info',
+  timestamp: '2020-02-17 11:57:53'
+}
+{
+  message: 'Update Data Success',
+  API: 'PUT -  https://beta-api.undiundi.id/profiles/update/email',
+  level: 'info',
+  timestamp: '2020-02-17 11:58:07'
+}
+{
+  message: 'Login Success',
+  API: 'POST -  https://beta-api.undiundi.id/login',
+  level: 'info',
+  timestamp: '2020-02-17 01:02:39'
+}
+{
+  message: 'Get Data Success',
+  API: 'GET - https://beta-api.undiundi.id/leaderboard/period/active',
+  query: "SELECT id, periode FROM periode WHERE promo_type = 1 AND start_date <= '2020-02-17' AND end_date > '2020-02-17' ",
+  level: 'info',
+  timestamp: '2020-02-17 01:39:34'
+}
+{
+  message: 'Get Data Success',
+  API: 'GET - https://beta-api.undiundi.id/leaderboard/1',
+  query: 'SELECT leaderboard.id AS leaderboardId, period_id, point, rank, created_at, profiles.id AS profileId, profiles.accountname, profiles.fullname, profiles.user_id\n' +
+    '                  FROM leaderboard INNER JOIN profiles ON profiles.id = leaderboard.profile_id WHERE period_id = 1 ORDER BY rank ASC LIMIT 0, 10',
+  level: 'info',
+  timestamp: '2020-02-17 01:44:22'
+}
+{
+  message: 'Data Not Found',
+  API: 'GET - https://beta-api.undiundi.id/leaderboard/search/2/kaharudin',
+  query: 'SELECT leaderboard.id AS leaderboardId, period_id, point, rank, created_at, profiles.id AS profileId, profiles.accountname, profiles.fullname, profiles.user_id\n' +
+    '            FROM leaderboard INNER JOIN profiles ON profiles.id = leaderboard.profile_id WHERE period_id = 2 AND (profiles.handphone LIKE "%kaharudin%" OR \n' +
+    '            profiles.accountname LIKE "%kaharudin%" OR profiles.fullname LIKE "%kaharudin%" OR profiles.email LIKE "%kaharudin%") ORDER BY rank ASC LIMIT 0, 10',
+  level: 'warn',
+  timestamp: '2020-02-17 01:44:31'
+}
+{
+  message: 'Get Data Success',
+  API: 'GET - https://beta-api.undiundi.id/leaderboard/period/all',
+  query: 'SELECT id, periode FROM periode WHERE promo_type = 1',
+  level: 'info',
+  timestamp: '2020-02-17 01:44:36'
+}
+{
+  message: 'Get Data Success',
+  API: 'GET - https://beta-api.undiundi.id/leaderboard/user/1',
+  query: "SELECT rank, point FROM leaderboard INNER JOIN profiles ON profiles.id = leaderboard.profile_id WHERE profiles.id = '162' AND leaderboard.period_id = '1'",
+  level: 'info',
+  timestamp: '2020-02-17 01:44:41'
+}
+{
+  message: 'Duplicate Entry',
+  API: 'POST -  https://beta-api.undiundi.id/registration',
+  query: "INSERT INTO profiles VALUES (NULL, 'varchar', UUID_SHORT(), '0', '0', NULL, 'varchar', '', NULL, NULL, 'string', \n" +
+    "                'sha1$d36b6a43$1$0671b85955542328c26479f5a79a3e9357cb779a', 'varchar', '', 'string', NULL, NULL, NULL, '', NULL, NULL,NULL, NOW(), NULL, '', '', '')",
+  err: Error: ER_DUP_ENTRY: Duplicate entry 'varchar' for key 'email'
+      at Query.Sequence._packetToError (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+      at Query.ErrorPacket (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+      at Protocol._parsePacket (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+      at Parser._parsePacket (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\mysql\lib\protocol\Parser.js:433:10)
+      at Parser.write (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\mysql\lib\protocol\Parser.js:43:10)
+      at Protocol.write (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+      at Socket.<anonymous> (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\mysql\lib\Connection.js:91:28)
+      at Socket.<anonymous> (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\mysql\lib\Connection.js:525:10)
+      at Socket.emit (events.js:223:5)
+      at Socket.EventEmitter.emit (domain.js:475:20)
+      --------------------
+      at Pool.query (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\mysql\lib\Pool.js:199:23)
+      at exports.postRegistration (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\src\controllers\Register\register.ts:168:16)
+      at Layer.handle [as handle_request] (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\express\lib\router\layer.js:95:5)
+      at next (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\express\lib\router\route.js:137:13)
+      at Route.dispatch (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\express\lib\router\route.js:112:3)
+      at Layer.handle [as handle_request] (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\express\lib\router\layer.js:95:5)
+      at C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\express\lib\router\index.js:281:22
+      at Function.process_params (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\express\lib\router\index.js:335:12)
+      at next (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\express\lib\router\index.js:275:10)
+      at Function.handle (C:\Users\RedBox168\Documents\Projects\undi-undi\Document\undi-undi\node_modules\express\lib\router\index.js:174:3) {
+    code: 'ER_DUP_ENTRY',
+    errno: 1062,
+    sqlMessage: "Duplicate entry 'varchar' for key 'email'",
+    sqlState: '23000',
+    index: 0,
+    sql: "INSERT INTO profiles VALUES (NULL, 'varchar', UUID_SHORT(), '0', '0', NULL, 'varchar', '', NULL, NULL, 'string', \n" +
+      "      'sha1$d36b6a43$1$0671b85955542328c26479f5a79a3e9357cb779a', 'varchar', '', 'string', NULL, NULL, NULL, '', NULL, NULL,NULL, NOW(), NULL, '', '', '')"
+  },
+  level: 'error',
+  timestamp: '2020-02-17 02:08:17'
+}
+{
+  message: 'Database undiundi connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 02:12:07'
+}
+{
+  message: 'Database undiundi connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 02:14:09'
+}
+{
+  message: 'Database undiundi connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-17 02:15:05'
+}
+{
+  timestamp: '2020-02-17 02:52:01',
+  message: 'Login Success',
+  API: 'POST -  https://beta-api.undiundi.id/login',
+  query: "SELECT id, email, password FROM profiles where email='varchar'",
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2/17/2020, 3:15:54 PM',
+    log: {
+      message: 'Login Success',
+      API: 'POST -  https://beta-api.undiundi.id/login',
+      query: "SELECT id, email, password FROM profiles where email='varchar'"
+    }
+  },
+  level: 'info',
+  timestamp: '2020-02-17 03:15:54'
+}
+{
+  message: {
+    timestamp: '2/17/2020, 3:17:10 PM',
+    log: {
+      message: 'Login Success',
+      API: 'POST -  https://beta-api.undiundi.id/login',
+      query: "SELECT id, email, password FROM profiles where email='varchar'"
+    }
+  },
+  level: 'info',
+  timestamp: '2020-02-17 03:17:10'
+}
+{
+  message: {
+    timestamp: '2/17/2020, 3:19:24 PM',
+    log: {
+      API: 'POST -  https://beta-api.undiundi.id/login',
+      query: "SELECT id, email, password FROM profiles where email='varchar'"
+    }
+  },
+  level: 'info',
+  timestamp: '2020-02-17 03:19:24'
+}
+{
+  timestamp: '2020-02-17 03:20:48',
+  message: 'Login Success',
+  API: 'POST -  https://beta-api.undiundi.id/login',
+  query: "SELECT id, email, password FROM profiles where email='varchar'",
+  level: 'info'
+}
+{
+  message: {
+    timestamp: '2/17/2020',
+    log: {
+      message: 'Login Success',
+      API: 'POST -  https://beta-api.undiundi.id/login',
+      query: "SELECT id, email, password FROM profiles where email='varchar'"
+    }
+  },
+  level: 'info',
+  timestamp: '2020-02-17 03:21:43'
+}
+{
+  timestamp: '2020-02-17 03:22:54',
+  message: 'Login Success',
+  API: 'POST -  https://beta-api.undiundi.id/login',
+  query: "SELECT id, email, password FROM profiles where email='varchar'",
+  level: 'info'
+}
+{
+  timestamp: '2020-02-17 03:24:47',
+  message: 'Login Success',
+  API: 'POST -  https://beta-api.undiundi.id/login',
+  query: "SELECT id, email, password FROM profiles where email='varchar'",
+  level: 'info'
+}
+{
+  timeStamp: '2020-02-17',
+  message: 'Login Success',
+  API: 'POST -  https://beta-api.undiundi.id/login',
+  query: "SELECT id, email, password FROM profiles where email='varchar'",
+  level: 'info',
+  timestamp: '2020-02-17 03:54:45'
+}
+{
+  timeStamp: '2020-02-17 03:55:08',
+  message: 'Login Success',
+  API: 'POST -  https://beta-api.undiundi.id/login',
+  query: "SELECT id, email, password FROM profiles where email='varchar'",
+  level: 'info',
+  timestamp: '2020-02-17 03:55:15'
+}
+{
+  timeStamp: '2020-02-17 3:57:00 PM',
+  message: 'Login Success',
+  API: 'POST -  https://beta-api.undiundi.id/login',
+  query: "SELECT id, email, password FROM profiles where email='varchar'",
+  level: 'info',
+  timestamp: '2020-02-17 03:57:09'
+}
+{
+  timeStamp: '2020-02-17 15:58:12',
+  message: 'Login Success',
+  API: 'POST -  https://beta-api.undiundi.id/login',
+  query: "SELECT id, email, password FROM profiles where email='varchar'",
+  level: 'info',
+  timestamp: '2020-02-17 03:58:20'
+}
+{
+  timeStamp: '2020-02-17 15:59:08',
+  message: {
+    message: 'Login Success',
+    API: 'POST -  https://beta-api.undiundi.id/login',
+    query: "SELECT id, email, password FROM profiles where email='varchar'"
+  },
+  level: 'info',
+  timestamp: '2020-02-17 03:59:19'
+}
+{
+  timeStamp: '2020-02-17 16:00:44',
+  message: {
+    message: 'Login Success',
+    API: 'POST -  https://beta-api.undiundi.id/login',
+    query: "SELECT id, email, password FROM profiles where email='varchar'"
+  },
+  level: 'info'
+}
+{ message: 'Access Denied (Unauthorized)', level: 'warn' }
+{
+  timeStamp: '2020-02-17 16:47:13',
+  message: {
+    message: 'Login Success',
+    API: 'POST -  https://beta-api.undiundi.id/login',
+    query: "SELECT id, email, password FROM profiles where email='varchar'"
+  },
+  level: 'info'
+}
+{
+  timeStamp: '2020-02-17 16:50:19',
+  message: {
+    message: 'Login Success',
+    API: 'POST -  https://beta-api.undiundi.id/login',
+    query: "SELECT id, email, password FROM profiles where email='varchar'"
+  },
+  level: 'info'
+}
+{ message: 'Access Denied (Unauthorized)', level: 'warn' }
+{
+  message: 'Get Data Success',
+  API: 'GET -  https://beta-api.undiundi.id/master/city/all',
+  query: 'SELECT * FROM code_regency',
+  level: 'info'
+}

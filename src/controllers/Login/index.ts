@@ -3,71 +3,82 @@ import * as login from "./login";
 
 let router = express.Router();
 
-/** 
+/**
  * @swagger
- * 
- * definitions:
- *  Login:
- *      type: object
- *      required:
- *          - id
- *          - email
- *          - handphone
- *          - identity
- *      properties:
- *          id: 
- *              example: 0
- *              type: integer
- *          email: 
- *              example: email@email.com
- *              type: varchar
- *          handphone: 
- *              example: 02134049
- *              type: varchar 
- *          identity: 
- *              example: 317103843729
- *              type: varchar
- *          accountname: 
- *              example: string
- *              type: varchar
- *          fullname: 
- *              example: string
- *              type: varchar
- *          password: 
- *              example: user1234
- *              type: varchar
- *          address: 
- *              example: Jln. Mesjid 4, Pejompongan, Jakarta Pusat
- *              type: varchar
- *          city: 
- *              example: Jakarta
- *              type: varchar
- *              
-*/
+ *
+ * components:
+ *  schemas:
+ *      Login:
+ *          type: object
+ *          required:
+ *              - email
+ *              - password
+ *          properties:
+ *              email:
+ *                  example: varchar
+ *                  type: varchar
+ *              password:
+ *                  example: varchar
+ *                  type: varchar
+ */
 
 /**
  * @swagger
- * /Login:
+ * /login:
  *      post:
  *          tags:
- *              - Login
- *          summary: Create a new profile
+ *              - Auth
+ *          summary: Login
  *          produces:
  *              - application/json
- *          parameters:
- *              - name: body
- *                in: body
- *                description: Insert a new profile
- *                required: true
- *                type: string
- *                schema:
- *                  $ref: '#/definitions/Registration'
+ *          requestBody:
+ *              description: Login
+ *              required: true
+ *              content:
+ *                  application/json:
+ *                      schema:
+ *                          $ref: '#/components/schemas/Login'
  *          responses:
  *             200:
- *                  description: Succesful
- *             400: 
+ *                  description: Login Succesful
+ *                  content:
+ *                      application/json:
+ *                          schema:
+ *                              type: object
+ *                              properties:
+ *                                  message:
+ *                                      example:
+ *                                          Login Success
+ *                                  token:
+ *                                      example: varchar
+ *                                      type: varchar
+ *                                  success:
+ *                                      example: 1
+ *                                      type: boolean
+ *                                  status:
+ *                                      example: 200
+ *                                      type: varchar
+ *                                  data:
+ *                                      type: object
+ *             401:
  *                  description: Invalid
+ *                  content:
+ *                      application/json:
+ *                          schema:
+ *                              type: object
+ *                              properties:
+ *                                  message:
+ *                                      example:
+ *                                          "Username or Password Incorrect"
+ *                                  success:
+ *                                      example: 0
+ *                                      type: boolean
+ *                                  status:
+ *                                      example: 401
+ *                                      type: varchar
+ *                                  data:
+ *                                      type: object
  */
-router.route('').post(login.postLogin);
+router.route("").post(login.postLogin);
 
 export = router;

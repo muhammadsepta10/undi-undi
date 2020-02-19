@@ -1,3 +1,3 @@
-const jwt = require('express-jwt')
+const secret_token = 'dwahdjasnjkdhwajdknadwha';
 
-exports.authenticated = jwt({secret: 'my-secret-key'})
+export default secret_token;

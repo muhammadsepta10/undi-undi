@@ -1,0 +1,199 @@
+{
+  level: 'info',
+  message: 'What time is the testing at?',
+  timestamp: '2020-02-14T02:03:04.691Z'
+}
+{
+  level: 'info',
+  message: 'What time is the testing at?',
+  timestamp: '2020-02-14T02:19:19.361Z'
+}{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 02:45:46'
+}
+{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 02:47:15'
+}
+{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 02:49:46'
+}
+{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 02:59:30'
+}
+{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 02:59:46'
+}
+{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 03:46:50'
+}
+{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 03:49:06'
+}
+{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 03:50:09'
+}
+{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 03:51:16'
+}
+{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 03:51:37'
+}
+{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 03:52:05'
+}
+{ message: 'error', level: 'error', timestamp: '2020-02-14 03:52:05' }
+{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 05:49:28'
+}
+{ message: 'error', level: 'error', timestamp: '2020-02-14 05:49:28' }
+{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 05:50:14'
+}
+{ message: 'error', level: 'error', timestamp: '2020-02-14 05:50:14' }
+{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 05:50:28'
+}
+{ message: 'error', level: 'error', timestamp: '2020-02-14 05:50:28' }
+{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 06:00:04'
+}
+{ message: 'error', level: 'error', timestamp: '2020-02-14 06:00:04' }
+{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 06:00:53'
+}
+{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 06:01:49'
+}
+{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 06:02:33'
+}
+{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 06:03:38'
+}
+{
+  message: 'logging to file and console transports',
+  level: 'info',
+  timestamp: '2020-02-14 06:07:15'
+}
+{
+  level: 'info',
+  message: 'sadasdas',
+  timestamp: '2020-02-14 06:09:25'
+}
+{
+  level: 'info',
+  message: 'sadasdas',
+  timestamp: '2020-02-14 06:10:21'
+}
+{ level: 'error', message: 'lilili', timestamp: '2020-02-14 06:10:21' }
+{
+  time: Format { options: {} },
+  level: 'info',
+  message: 'sadasdas',
+  timestamp: '2020-02-14 06:11:35'
+}
+{ level: 'error', message: 'lilili', timestamp: '2020-02-14 06:11:35' }
+{
+  time: Format { options: { format: 'YYYY-MM-DD hh:mm:ss' } },
+  level: 'info',
+  message: 'sadasdas',
+  timestamp: '2020-02-14 06:11:49'
+}
+{ level: 'error', message: 'lilili', timestamp: '2020-02-14 06:11:49' }
+{
+  time: Format { options: { format: 'YYYY-MM-DD hh:mm:ss' } },
+  level: 'info',
+  message: 'sadasdas',
+  timestamp: '2020-02-14 06:13:00'
+}
+{ level: 'error', message: 'lilili', timestamp: '2020-02-14 06:13:00' }
+{
+  level: 'info',
+  message: 'sadasdas',
+  timestamp: '2020-02-14 06:13:58'
+}
+{ level: 'error', message: 'lilili', timestamp: '2020-02-14 06:13:58' }
+{
+  level: 'info',
+  message: 'sadasdas',
+  timestamp: '2020-02-14 06:14:28'
+}
+{ level: 'error', message: 'lilili', timestamp: '2020-02-14 06:14:28' }
+{
+  level: 'info',
+  message: 'sadasdas',
+  timestamp: '2020-02-14 06:14:41'
+}
+{ level: 'error', message: 'lilili', timestamp: '2020-02-14 06:14:41' }
+{
+  level: 'info',
+  message: 'sadasdas',
+  timestamp: '2020-02-14 06:15:01'
+}
+{ level: 'error', message: 'lilili', timestamp: '2020-02-14 06:15:01' }
+{
+  level: 'info',
+  message: 'sadasdas',
+  timestamp: '2020-02-14 06:15:29'
+}
+{ level: 'error', message: 'lilili', timestamp: '2020-02-14 06:15:29' }
+{
+  level: 'info',
+  message: 'sadasdas',
+  timestamp: '2020-02-14 06:15:59'
+}
+{ level: 'error', message: 'lilili', timestamp: '2020-02-14 06:15:59' }
+{
+  level: 'info',
+  message: 'sadasdas',
+  timestamp: '2020-02-14 06:16:24'
+}
+{ level: 'error', message: 'lilili', timestamp: '2020-02-14 06:16:24' }
+{
+  level: 'info',
+  message: 'sadasdas',
+  timestamp: '2020-02-14 06:16:39'
+}
+{ level: 'error', message: 'lilili', timestamp: '2020-02-14 06:16:39' }
+{
+  message: 'Database connection was refused.',
+  level: 'error',
+  timestamp: '2020-02-14 06:59:19'
+}
